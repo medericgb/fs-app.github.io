@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+  --title-color: #AD343E;
+  --link-color: #14213D;
+}
+
+.App {  
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: var(--title-color)
+}
+
+.card {
+  display: flex;
+  flex-direction: space-between;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.card__link {
+  text-decoration: none;
+  color: var(--link-color)
+}
+
+
+.card__avatar {
+  border-radius: 10px;
+}
